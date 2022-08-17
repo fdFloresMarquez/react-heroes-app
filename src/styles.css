@@ -1,0 +1,10 @@
+/* //animate__animated animate__fadeIn */
+#cards{
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+#heroImg{
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
