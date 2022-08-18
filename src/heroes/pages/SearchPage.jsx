@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import queryString from 'query-string'
+import queryString from 'query-string';
 
 import { useForm } from '../../hooks/useForm';
 import { HeroCard } from '../components/';
@@ -30,12 +30,9 @@ export const SearchPage = () => {
 
   return (
     <>
-      <h1>Search</h1>
-      <hr />
-
       <div className="row">
-        <div className="col-5">
-          <h4>Searching</h4>
+        <div className="col-5 mt-3">
+          <h2>Searching</h2>
           <hr />
 
           <form onSubmit={ onSearchSubmit }>
@@ -56,8 +53,8 @@ export const SearchPage = () => {
 
         </div>
 
-        <div className="col-7">
-          <h4>Results</h4>
+        <div className="col-7 mt-3">
+          <h2>Results</h2>
           <hr />
 
 

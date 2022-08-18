@@ -22,7 +22,7 @@ export const HeroPage = () => {
     <>
       <div className="row mt-5">
         <div className="col-4">
-          <img id="heroImg"src={`/assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
+          <img src={`/assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
         </div>
 
         <div className="col-8">

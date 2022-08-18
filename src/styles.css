@@ -1,10 +1,10 @@
-/* //animate__animated animate__fadeIn */
-#cards{
+
+.card-grid{
     animation: fadeIn;
     animation-duration: 1s;
 }
 
-#heroImg{
+.img-thumbnail{
     animation: fadeInLeft;
     animation-duration: 1s;
 }
@@ -16,5 +16,41 @@
 
 #searchAlert{
     animation: fadeIn;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
 }
+
+.full-page {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    width: 100vw;
+}
+
+.login-page{
+    background-image: url('../assets/background/background.jpg');
+    background-size: cover;
+}
+
+.login-card{
+    color: white;
+    display: grid;
+    font-family: 'Merriweather Sans', sans-serif;
+    place-items: center;
+}
+
+.login-card h1{
+    animation: backInDown;
+    animation-duration: 0.5s;
+    font-size: 90px;
+    font-weight: 700;
+    text-shadow: 3px 6px 2px #474747;
+}
+
+.login-card button{
+    animation: backInDown;
+    animation-duration: 0.7s;
+    border-width: 0.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+

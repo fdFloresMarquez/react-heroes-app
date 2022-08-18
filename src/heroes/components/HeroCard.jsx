@@ -18,7 +18,7 @@ export const HeroCard = ({
     const heroImageUrl = `/assets/heroes/${id}.jpg`
 
   return (
-    <div id="cards" className="col">
+    <div className="col card-grid">
         <div className="card">
             <div className="row no-gutters">
                 <div className="col-4">
