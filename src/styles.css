@@ -8,3 +8,13 @@
     animation: fadeInLeft;
     animation-duration: 1s;
 }
+
+#errorAlert{
+    animation: shakeX;
+    animation-duration: 0.3s;
+}
+
+#searchAlert{
+    animation: fadeIn;
+    animation-duration: 0.3s;
+}
