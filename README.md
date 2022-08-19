@@ -1,6 +1,6 @@
 # Heroes App 
 
-Live Demo: gif-expert-facuflo.netlify.app/
+Live Demo: heroes-app-spa.netlify.app/
 
 ![plot](./public/assets/screen.png)
 
