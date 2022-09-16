@@ -1,6 +1,6 @@
 # Heroes App 
 
-Live Demo: heroes-app-spa.netlify.app/
+Live Demo: https://heroes-app-spa.netlify.app/
 
 ![plot](./public/assets/screen.png)
 
